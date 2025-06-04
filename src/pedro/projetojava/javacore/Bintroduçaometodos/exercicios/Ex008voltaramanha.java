@@ -4,7 +4,7 @@ import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Inss008;
 
 import java.util.Scanner;
 
-public class Ex008 {
+public class Ex008voltaramanha {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         Inss008 funcionario = new Inss008();
