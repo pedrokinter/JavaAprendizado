@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.test;
+package pedro.projetojava.javacore.Bintroduçaometodos.testesAulas;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominio.Calculadora;
+import pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas.Calculadora;
 
 import java.util.Scanner;
 

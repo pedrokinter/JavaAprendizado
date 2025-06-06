@@ -1,13 +1,13 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.exercicios;
+package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.ContaBancaria002;
+import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.eContaBancaria002;
 
 import java.util.Scanner;
 
 public class ex002 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        ContaBancaria002 conta = new ContaBancaria002();
+        eContaBancaria002 conta = new eContaBancaria002();
         System.out.println("Digite o nome do conta: ");
         conta.titular = ler.nextLine();
         System.out.println("Digite o saldo da conta: ");

@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominio;
+package pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas;
 
 public class Calculadora {
 

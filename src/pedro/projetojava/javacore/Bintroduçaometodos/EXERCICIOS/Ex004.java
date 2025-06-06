@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.exercicios;
+package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
 
 import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Aluno004;
 

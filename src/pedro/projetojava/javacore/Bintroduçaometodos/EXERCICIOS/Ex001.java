@@ -1,13 +1,13 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.exercicios;
+package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Produto001;
+import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.eProduto001;
 
 import java.util.Scanner;
 
 public class Ex001 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        Produto001 produto = new Produto001();
+        eProduto001 produto = new eProduto001();
         System.out.println("A seguir, digite o nome e preço do seu produto e daremos o valor final com 10% de desconto: ");
         produto.nome = ler.nextLine();
         produto.preco = ler.nextDouble();

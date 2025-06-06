@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.exercicios;
+package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Retangulo003;
+import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.eRetangulo003;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Ex003 {
     public static void main(String[] args) {
         Scanner ler =  new Scanner(System.in);
-        Retangulo003 retangulo = new Retangulo003();
+        eRetangulo003 retangulo = new eRetangulo003();
         System.out.println("A seguir, digite a base e a altura de um retângulo para retornar a área dele: ");
         retangulo.base = ler.nextDouble();
         System.out.println("=-=-=-=-=");

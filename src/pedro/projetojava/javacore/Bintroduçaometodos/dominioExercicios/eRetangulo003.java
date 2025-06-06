@@ -1,6 +1,6 @@
 package pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios;
 
-public class Retangulo003 {
+public class eRetangulo003 {
     public double base;
     public double altura;
     public String medida;
