@@ -18,12 +18,12 @@ public class Ex009 {
 
         System.out.println("=-=-=-=-=-=-=-=-=-=-=");
 
-        lampada.ligar();
+        lampada.ligarALampada();
         lampada.usar(horas);
         lampada.mostrarStatus();
-        lampada.desligar();
+        lampada.desligarLampada();
 
-
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=");
 
     }
 }
