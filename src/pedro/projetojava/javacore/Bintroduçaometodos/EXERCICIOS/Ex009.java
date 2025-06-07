@@ -9,6 +9,14 @@ public class Ex009 {
         Scanner entrada = new Scanner(System.in);
         Lampada009 lampada = new Lampada009();
 
+        System.out.println("Você quer ligar a lâmpada? [S/N]");
+        String opcao = entrada.nextLine();
+        if (opcao.equals("S")) {
+            lampada.ligarALampada();
+        } else if (opcao.equals("N")) {
+            System.out.println("Ok, encerrando programa");
+        }
+
 
         System.out.println("Digite a potência da sua lampada: ");
         lampada.potencia = entrada.nextInt(); //watts
@@ -18,10 +26,19 @@ public class Ex009 {
 
         System.out.println("=-=-=-=-=-=-=-=-=-=-=");
 
-        lampada.ligarALampada();
         lampada.usar(horas);
         lampada.mostrarStatus();
-        lampada.desligarLampada();
+
+        System.out.println("Você quer desligar a lâmpada? [S/N]");
+        String opcaoDesliga = entrada.next();
+        if (opcaoDesliga.equals("S") || opcaoDesliga.equals("s")) {
+            System.out.println("Ok, encerrando programa..");
+            lampada.desligarLampada();
+        } else if (opcaoDesliga.equals("N") || opcaoDesliga.equals("n")) {
+            System.out.println("Por quanto tempo a mais você quer manter a lampada? ");
+
+        }
+
 
         System.out.println("=-=-=-=-=-=-=-=-=-=-=");
 

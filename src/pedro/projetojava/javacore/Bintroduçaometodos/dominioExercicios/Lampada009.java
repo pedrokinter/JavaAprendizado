@@ -6,23 +6,22 @@ public class Lampada009 {
     public double consumo; // kWh acumulado
 
     public void ligarALampada(){
-        boolean ligada = true;
+        ligada = true;
         System.out.println("Ligando a lampada..");
     }
 
     public void usar(double horas) {
-        if (ligada == true) {
+        if (ligada) {
             consumo += (potencia / 1000.0) * horas;
         } else {
             System.out.println("Primeiro, ligue a lâmpada e tente novamente");
-            return;
+
         }
     }
 
-
     public void mostrarStatus () {
-        if (ligada == true) {
-            System.out.println("O Consumo que ja ocorreu da Lâmpada é igual a: " + consumo + "kWh");
+        if (ligada) {
+            System.out.println("O Consumo que ocorreu da Lâmpada é igual a: " + consumo + "kWh");
         }
     }
 
