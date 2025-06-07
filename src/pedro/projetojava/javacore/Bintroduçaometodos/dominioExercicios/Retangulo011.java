@@ -25,13 +25,9 @@ public class Retangulo011 {
 
     }
 
-    public void teste(Retangulo011 retangulo) {
-        if (this.area > retangulo.area) {
-            System.out.println("area 1 > area 2");
-        } else {
-            System.out.println("area 1 < area 2");
-        }
-    }
+    //public boolean teste(Retangulo011 retangulo) {
+        //return this.area() > retangulo.area();
+    //}
 
 
 
