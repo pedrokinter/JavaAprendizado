@@ -16,7 +16,7 @@ public class Ex014 {
         carro.consumo = entrada.nextDouble();
 
         System.out.println("Sua viagem terá quantos KM? (DISTANCIA): ");
-        carro.dirigir(entrada.nextDouble()); // pra entender os metodos, tenho que acessar a outra classe que faz referencia
+        carro.dirigir(entrada.nextDouble()); // para entender os methods, tenho que acessar a outra classe que faz referência
         // de objeto
 
         System.out.println("Agora, abasteça o tanque do seu carro (LITROS) e vamos viajar!: ");

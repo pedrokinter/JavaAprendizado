@@ -56,7 +56,7 @@ public class Ex013 {
         }
 
         System.out.println("--------------------------");
-        System.out.println(produto.exibirDados(produto));
+        System.out.println(produto.exibirDados());
 
     }
 }

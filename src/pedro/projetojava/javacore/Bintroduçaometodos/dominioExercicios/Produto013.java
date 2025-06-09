@@ -17,7 +17,7 @@ public class Produto013 {
         System.out.println("O preço total do produto é igual a: R$" + this.preco*this.quantidade);
     }
 
-    public String exibirDados (Produto013 produto) {
+    public String exibirDados () {
         return "Nome: " + this.nome + ", Preço: R$" + this.preco + ", Quantidade: " +quantidade+ " Preço Total: R$"
                 + this.preco*this.quantidade;
 
