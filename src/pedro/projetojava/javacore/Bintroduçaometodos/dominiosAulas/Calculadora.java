@@ -54,4 +54,21 @@ public class Calculadora {
         System.out.println(num1);
         System.out.println(num2);
     }
+
+    public void somaArray (int [] nums){
+        int soma = 0;
+        for (int num : nums) {
+            soma += num;
+        }
+    }
+
+    public void somaVarargs(int... nums){
+        int soma = 0;
+        for (int num : nums) {
+            soma += num;
+        }
+        // mesma coisa q passar com array, so muda q eu posso botar qnts numeros eu quiser na chamada
+        // porem n pode ter nenhum atributo dps se vc colocar o varargs no começo
+        // entao se for colocar algum atributo, bota ele no começo e o varargs sempre por ultimo
+    }
 }
