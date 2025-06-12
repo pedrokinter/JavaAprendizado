@@ -24,7 +24,7 @@ public class aula004 {
 
         //&& (and); || (or); !
 
-        // se a idade for menor que 30 e o salario maior que 3500, o cidadão está na lei, caso ao contrario, ele não esta (respectivamente: true e false)
+        // se a idade for menor que 30 e o salarios maior que 3500, o cidadão está na lei, caso ao contrario, ele não esta (respectivamente: true e false)
         int idade = 29;
         float salario = 3500f;
         boolean dentroDaLeiMaiorqueTrinta = idade >= 30 && salario >= 4612; //ele vai retornar em ambos os boolean o que foi pedido, que é verificar se o individuo esta dentro da lei prevista.

@@ -2,7 +2,7 @@ package pedro.projetojava.aulas;
 
 public class aula005condicionaisc {
     public static void main(String[] args) {
-        // doar salario 
+        // doar salarios
         double salario = 6000;
         // condicao ? verdadeiro : falso
 

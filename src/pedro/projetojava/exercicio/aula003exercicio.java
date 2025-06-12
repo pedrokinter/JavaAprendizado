@@ -8,7 +8,7 @@ public class aula003exercicio {
         float salario = 2550.50f; // ou double.
         String data = "15/05/2025";
 
-        System.out.println("Eu "+nome+" morando no endereço "+endereço+", confirmo que recebi o salario de R$"+salario+", na data "+data+"");
+        System.out.println("Eu "+nome+" morando no endereço "+endereço+", confirmo que recebi o salarios de R$"+salario+", na data "+data+"");
     }
     
 }
