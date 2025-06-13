@@ -3,9 +3,10 @@ package pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios;
 import java.util.Arrays;
 
 public class Funcionario015 {
-    public String nome;
-    public int idade;
+    private String nome;
+    private int idade;
     public double [] salarios;
+    private double media = 0;
 
     public void imprimir(){
         if (salarios == null){
@@ -18,7 +19,7 @@ public class Funcionario015 {
         if (salarios == null){
             return;
         }
-        double media = 0;
+
         for (double nums : salarios) {
             media += nums;
         }
@@ -26,5 +27,32 @@ public class Funcionario015 {
         System.out.println("A média salarial desse funcionário é igual a " + media);
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public double[] getSalarios() {
+        return salarios;
+    }
+
+    public double getMedia() {
+        return media;
+    }
 }
