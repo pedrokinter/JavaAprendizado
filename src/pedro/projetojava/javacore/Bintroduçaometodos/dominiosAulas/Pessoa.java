@@ -11,7 +11,7 @@ public class Pessoa {
 
     public void setNome(String nome) {
         this.nome = nome;
-    } // seta
+    } // coloca dentro do atributo nome
     public void setIdade(int idade) {
         if (idade >= 18) {
             System.out.println("Idade <UNK> maior que 18");
