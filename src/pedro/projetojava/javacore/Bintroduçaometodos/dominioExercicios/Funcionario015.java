@@ -6,7 +6,7 @@ public class Funcionario015 {
     private String nome;
     private int idade;
     public double [] salarios;
-    private double media = 0;
+    private double media;
 
     public void imprimir(){
         if (salarios == null){

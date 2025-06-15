@@ -19,6 +19,7 @@ public class Ex016 {
 
         System.out.println("----------------------");
 
+
         for (int i = 0; i < 99999; i++){
             System.out.println("Você quer depositar ou sacar o  dinheiro da sua conta? (SAIR para encerrar): ");
             String opcao = ler.next();
