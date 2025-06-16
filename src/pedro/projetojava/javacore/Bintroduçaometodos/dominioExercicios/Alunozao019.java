@@ -16,10 +16,19 @@ public class Alunozao019 {
 
     public void adicionarNota(double nota){
 
-        for(int i=0; i<notas.length; i++){
+        if (teste < notas.length){
             this.notas[teste] = nota;
-        }
-        teste++;
+            teste++;
+        } else {
+            System.out.println("erro, todas as notas ja foram inseridas.");
+        } // jeito eficiente q o gpt fez
+
+        //for(int i=0; i<notas.length; i++){
+            //this.notas[teste] = nota;
+        //}
+        //teste++;
+
+         // jeito podi q eu fiz
     }
 
     public String getNome() {
@@ -49,7 +58,7 @@ public class Alunozao019 {
     }
 
     public String getSituacao () {
-        if (getMedia() > 7){
+        if (getMedia() >= 7){
             return "Aprovado";
         } else {
             return "Reprovado";

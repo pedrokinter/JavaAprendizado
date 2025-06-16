@@ -22,14 +22,15 @@ public class Ex019 {
             for (int i = 0; i < 3; i++) {
                 aluno.adicionarNota(ler.nextDouble());
             }
+            ler.nextLine(); // limpa o buffer antes de pedir o nome do segundo aluno, ai n da erro
 
         System.out.println("=======================================");
 
             System.out.println("Digite o nome do segundo aluno: ");
-            aluno2.setNome(ler.next());
+            aluno2.setNome(ler.nextLine());
 
             System.out.println("Digite a matricula do segundo aluno: ");
-            aluno2.setMatricula(ler.next());
+            aluno2.setMatricula(ler.nextLine());
 
             System.out.println("Digite as notas do segundo aluno: ");
             for (int i = 0; i < 3; i++) {
