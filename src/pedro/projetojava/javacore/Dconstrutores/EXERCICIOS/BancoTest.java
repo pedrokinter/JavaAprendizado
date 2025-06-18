@@ -50,7 +50,7 @@ public class BancoTest {
         System.out.println("-------------");
 
             System.out.println("Nome 2:  " + banco2.getTitular());
-            System.out.println("Saldo 2 atual: " + banco2.getSaldo());
+            System.out.println("Saldo 2 atual : " + banco2.getSaldo());
 
     }
 }
