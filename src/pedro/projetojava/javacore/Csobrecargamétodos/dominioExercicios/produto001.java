@@ -13,11 +13,16 @@ public class produto001 {
     }
 
     public void setPreco(double preco) {
-        this.preco = preco;
+        if (preco < 0) {
+            System.out.println("Erro, valor menor que 0");
+        } else {
+            this.preco = preco;
+        }
     }
 
     public double getPreco() {
         return this.preco;
+
     }
 
 
@@ -46,7 +51,11 @@ public class produto001 {
 
     public void exibirDetalhes () {
         System.out.println("Nome: " + getNome());
-        System.out.println("Preco: R$" + getPreco());
+        if (this.preco > 0) {
+            System.out.println("Preco: R$" + getPreco());
+        } else {
+            System.out.println("Preco: Erro, menor do que 0");
+        }
         System.out.println("Quantidade em Estoque: " + getQuantidadeEmEstoque());
     }
 

@@ -36,7 +36,6 @@ public class Ex001 {
                     produto.removerEstoque(entrada.nextInt());
                     break;
                 }
-
             if (perg.equals("sair")) {
                 break;
             }

@@ -18,8 +18,8 @@ public class BancoTest {
 
 
         while (contador != -1){
-            System.out.println(banco.getTitular().toUpperCase() + " Você quer depositar, sacar ou sair?");
             contador++;
+            System.out.println(banco.getTitular().toUpperCase() + " Você quer depositar, sacar ou sair?");
             pergunta = entrada.nextLine();
             switch (pergunta) {
                 case "depositar":
@@ -39,7 +39,7 @@ public class BancoTest {
 
         System.out.println("=--=-=-=-==-=-=-=-=-=-=-=-=-=-=-=");
 
-        System.out.println(banco.getTitular().toUpperCase() + " Transfira da sua conta para outra: ");
+        System.out.println(banco.getTitular().toUpperCase() + " Transfira  um valor da sua conta para outra: ");
             banco.transferir(banco2, entrada.nextDouble());
 
         System.out.println("====================");
