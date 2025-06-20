@@ -10,10 +10,16 @@ public class Livro02 {
     }
 
     public Livro02(String titulo, String autor, int numeroPaginas) {
-        this(titulo, autor);
-        this.titulo = titulo;
-        this.autor = autor;
-        this.numeroPaginas = numeroPaginas;
+        this(titulo, autor); // ja atribui o titulo e o autor aqui, ai eu so preciso passar o numero de paginas por aq
+
+        if (numeroPaginas < 10) {
+            System.out.println("ERRO: numero de paginas < 10, usarei o valor 100");
+            this.numeroPaginas = 100;
+        } else {
+            this.numeroPaginas = numeroPaginas;
+        } // validaçao do mesmo jeito q tem no set
+        // pq se alguem tentar validar pelo objeto pode dar merda entende, ai ele consegue botar < 10
+
     }
 
     public Livro02(String titulo, String autor) {

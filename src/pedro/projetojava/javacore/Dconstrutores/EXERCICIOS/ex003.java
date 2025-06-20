@@ -12,11 +12,11 @@ public class ex003 {
         Funcionario03 funcionario = new Funcionario03(ler.nextLine(), ler.nextLine(), ler.nextDouble());
 
         System.out.println("Calcule o salário dele: ");
-        System.out.println("R$" + funcionario.calcularSalario());
+            System.out.println("R$" + funcionario.calcularSalario());
         System.out.println("Agora, de o bonus: ");
-        System.out.println("R$" + funcionario.calcularSalario(ler.nextDouble()));
+            System.out.println("R$" + funcionario.calcularSalario(ler.nextDouble()));
         System.out.println("Agora, de o bonus e o desconto dele: ");
-        System.out.println("R$" + funcionario.calcularSalario(ler.nextDouble(), ler.nextDouble()));
+            System.out.println("R$" + funcionario.calcularSalario(ler.nextDouble(), ler.nextDouble()));
 
         funcionario.imprimirFuncionario();
     }

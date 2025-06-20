@@ -10,9 +10,11 @@ public class ex001 {
         System.out.println("Digite o nome do carro, ano e sua velocidade atual: ");
         Carro01 carro = new Carro01(ler.nextLine(), ler.nextLine(), ler.nextDouble());
 
+        ler.nextLine();
+
         System.out.println("--------------------------------------------");
 
-        for (int i = 0; i > -1; i++){
+        while(true){
             System.out.println("Você quer acelerar o seu carro de uma maneira fixa ou personalizada? (S p/ sair)");
             String pergunta = ler.nextLine();
 
@@ -20,9 +22,10 @@ public class ex001 {
                 System.out.println("O carro acelerou em 10km/h!");
                 carro.acelerar();
             } else if (pergunta.equals("personalizada")){
-                carro.acelerar(ler.nextDouble());
                 System.out.println("Digite a kilometragem!!: ");
-                System.out.println("O carro acelerou em " +carro.getTeste()+ " km/h!");
+                double valor = ler.nextDouble();
+                carro.acelerar(valor);
+                System.out.println("O carro acelerou em " +valor+ " km/h!");
 
             } else if (pergunta.equals("s")){
                 break;

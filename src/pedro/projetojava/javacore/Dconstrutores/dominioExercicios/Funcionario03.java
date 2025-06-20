@@ -12,7 +12,11 @@ public class Funcionario03 {
     public Funcionario03(String nome, String cargo, double salarioBase) {
         this.nome = nome;
         this.cargo = cargo;
-        this.salarioBase = salarioBase;
+        if (salarioBase < 0) {
+            System.out.println("Erro: salario base invalido. ");
+        } else {
+            this.salarioBase = salarioBase;
+        }
     }
 
     public double calcularSalario() {
@@ -31,6 +35,6 @@ public class Funcionario03 {
         System.out.println("--------------------");
         System.out.println("Nome: " + nome);
         System.out.println("Cargo: " + cargo);
-        System.out.println("Salario total (sem bonus, porem com desconto): " + calcularSalario());
+        System.out.println("Salario total (sem bonus, sem desconto): " + calcularSalario());
     }
 }

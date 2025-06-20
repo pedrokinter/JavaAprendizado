@@ -4,7 +4,6 @@ public class Carro01 {
     private String modelo;
     private String ano;
     private double velocidade;
-    private double teste;
 
     {
         System.out.println("Carro criado!");
@@ -23,17 +22,15 @@ public class Carro01 {
 
 
     public double acelerar() {
-        return velocidade += 10;
+        return this.velocidade += 10;
     }
 
     public double acelerar(double incremento){
-        teste += incremento;
-        return velocidade += incremento;
+        velocidade += incremento;
+        return this.velocidade;
     }
 
-    public double getTeste() {
-        return teste;
-    }
+
 
     public void imprimir() {
         System.out.println("Modelo: " + this.modelo);
