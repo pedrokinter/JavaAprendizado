@@ -12,11 +12,23 @@ public class carro {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
+
     public void imprimir() {
         System.out.println("Marca: " + marca);
         System.out.println("Velocidade: " + velocidadeMaxima);
         System.out.println("Velocidade limite: " + carro.velocidadeLimite);
         System.out.println("----------------------");
+    }
+
+    public static void setVelocidadeLimite (double velocidadeLimite)  {
+        carro.velocidadeLimite = velocidadeLimite;
+        // nao da pra acessar nenhuma variavel nao estatica dentro de um metodo estatico
+        // POIS EXIST A POSSIBILIDADE DE NAO EXISTIR O OBJETO EM MEMORIA
+
+    }
+
+    public static double getVelocidadeLimite() {
+        return carro.velocidadeLimite;
     }
 
     public String getMarca() {
@@ -35,11 +47,7 @@ public class carro {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
-    public double getVelocidadeLimite() {
-        return velocidadeLimite;
-    }
 
-    public void setVelocidadeLimite(double velocidadeLimite) {
-        this.velocidadeLimite = velocidadeLimite;
-    }
+
+
 }
