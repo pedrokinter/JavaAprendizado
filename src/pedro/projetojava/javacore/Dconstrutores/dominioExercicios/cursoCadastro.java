@@ -33,11 +33,11 @@ public class cursoCadastro {
 
 
     public void exibirAlunos() {
-        System.out.println("=-=-=-=-=-=-=-=");
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
         System.out.println("Nome do curso: " + this.nomeCurso.toUpperCase());
         System.out.println("Alunos cadastrados: " + Arrays.toString(alunos));
         System.out.println("Matriculas do curso: " + Arrays.toString(matriculas));
-        System.out.println("=-=-=-=-=-=-=-=");
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
     }
 
 
