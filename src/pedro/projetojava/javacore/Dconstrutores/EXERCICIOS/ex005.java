@@ -14,12 +14,12 @@ public class ex005 {
         String nomeCurso = entrada.nextLine();
 
         cursoCadastro curso = new cursoCadastro(nomeCurso);
-        alunoCadastro aluno = new alunoCadastro();
 
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
 
         System.out.println("Cadastre 5 alunos abaixo.");
         for (int i = 0; i < 5; i++) {
+            alunoCadastro aluno = new alunoCadastro();
             System.out.println("Digite o nome do aluno: ");
             aluno.setNome(entrada.nextLine());
 
