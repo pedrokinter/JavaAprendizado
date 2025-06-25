@@ -48,8 +48,8 @@ public class cursoCadastro {
                 //System.out.println("Nome: " + alunos[i].getNome());
                 //System.out.println("Matrícula: " + alunos[i].getMatricula());
             }
-        }
-    }
+
+
 
 
 
@@ -81,6 +81,6 @@ public class cursoCadastro {
         }
         this.indice = indice;
     }
-
-
+    
+    
 }
