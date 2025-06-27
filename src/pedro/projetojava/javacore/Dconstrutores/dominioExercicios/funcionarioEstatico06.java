@@ -6,9 +6,8 @@ public class funcionarioEstatico06 {
         private double salario;
         private static int totalFuncionarios;
 
-
-    public void incrementoFuncionarios() {
-        funcionarioEstatico06.totalFuncionarios++;
+    {
+        totalFuncionarios++; // melhor do que criar um metodo que so incrementa
     }
 
     public String getNome() {
@@ -35,7 +34,7 @@ public class funcionarioEstatico06 {
         this.salario = salario;
     }
 
-    public int getTotalFuncionarios() {
+    public static int getTotalFuncionarios() {
         return funcionarioEstatico06.totalFuncionarios;
     }
 

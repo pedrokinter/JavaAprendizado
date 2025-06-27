@@ -7,9 +7,10 @@ import java.util.Scanner;
 public class ex006 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        funcionarioEstatico06 funcionario = new funcionarioEstatico06();
+
 
         while (true) {
+            funcionarioEstatico06 funcionario = new funcionarioEstatico06(); // cria um novo objeto a cada loop (dica gpt)
             System.out.println("Digite o nome do funcionário: ");
             funcionario.setNome(entrada.nextLine());
 
@@ -21,19 +22,19 @@ public class ex006 {
             funcionario.setSalario(entrada.nextDouble());
 
             entrada.nextLine();
-            funcionario.incrementoFuncionarios();
 
             System.out.println("Deseja sair ou registrar mais?");
             String opcao = entrada.nextLine();
 
             if (opcao.equals("sair")) {
+                funcionario.imprimirDados();
                 break;
             } else if (opcao.equals("registrar")) {
                 continue;
             }
         }
 
-        funcionario.imprimirDados();
+
 
     }
 }

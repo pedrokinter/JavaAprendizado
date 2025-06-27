@@ -18,10 +18,10 @@ public class ex007 {
 
         System.out.println("----------------------");
 
-        calculadoraStatic07.somar(num1, num2);
-        calculadoraStatic07.subtrair(num1, num2);
-        calculadoraStatic07.multiplicar(num1, num2);
-        calculadoraStatic07.dividir(num1, num2);
+        System.out.println("A soma dos valores é igual a: " + calculadoraStatic07.somar(num1, num2));
+        System.out.println("A subtração dos valores é igual a: " + calculadoraStatic07.subtrair(num1, num2));
+        System.out.println("A multiplicação dos valores é igual a: " + calculadoraStatic07.multiplicar(num1, num2));
+        System.out.println("A divisao dos valores é igual a: " + calculadoraStatic07.dividir(num1, num2));
 
     }
 }

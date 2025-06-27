@@ -7,7 +7,7 @@ public class cursoCadastro {
     private String [] alunos = new String[5];
     private String [] matriculas = new String[5]; // eu q fiz
 
-    //private alunoCadastro[] alunos = new alunoCadastro[5]; // chat gpt
+    //private alunoCadastro[] alunos = new alunoCadastro[5]; // chat gpt (cria um array pra guardar os objetos)
     private int indice;
     alunoCadastro aluno = new alunoCadastro();
 
@@ -21,7 +21,7 @@ public class cursoCadastro {
 
 
     public void matricularAluno (alunoCadastro aluno){
-        //this.alunos[this.indice] = aluno; //chat gpt
+        //this.alunos[this.indice] = aluno; //chat gpt (salva os objetos)
         this.alunos[this.indice] = aluno.getNome(); // eu q fiz
         this.matriculas[this.indice] = aluno.getMatricula();
         this.indice += 1;
@@ -43,7 +43,7 @@ public class cursoCadastro {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 
 
-        //for (int i = 0; i < alunos.length; i++) {  //chat gpt
+        //for (int i = 0; i < alunos.length; i++) {  //chat gpt (e percorre eles printando)
             //if (alunos[i] != null) {
                 //System.out.println("Nome: " + alunos[i].getNome());
                 //System.out.println("Matrícula: " + alunos[i].getMatricula());
@@ -80,6 +80,8 @@ public class cursoCadastro {
             return; // melhor criar outrometodo pra mudar a posiçao, pois isso bagunça o indice
         }
         this.indice = indice;
+
+        // nao é a funçao ideal desse metodo, pois bagunça o indice real do curso
     }
     
     

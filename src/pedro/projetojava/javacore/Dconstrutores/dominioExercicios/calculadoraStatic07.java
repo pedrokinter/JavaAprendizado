@@ -5,30 +5,37 @@ public class calculadoraStatic07 {
 
 
 
-    public static void somar(double a, double b) {
-        calculadoraStatic07.resultado = a+b;
-        System.out.println("A soma dos valores é igual: " + calculadoraStatic07.resultado);
+    public static double somar(double a, double b) {
+        return calculadoraStatic07.resultado = a+b;
+
+
+
+    }
+
+    public static double subtrair(double a, double b) {
+        return calculadoraStatic07.resultado = a-b;
 
 
     }
 
-    public static void subtrair(double a, double b) {
-        calculadoraStatic07.resultado = a-b;
-        System.out.println("A subtração dos valores é igual: " + calculadoraStatic07.resultado);
+    public static double multiplicar(double a, double b) {
+        return calculadoraStatic07.resultado = a*b;
+
 
     }
 
-    public static void multiplicar(double a, double b) {
-        calculadoraStatic07.resultado = a*b;
-        System.out.println("A multiplicação dos valores é igual: " + calculadoraStatic07.resultado);
+    public static double dividir(double a, double b) {
+        if (b == 0 || a == 0) {
+            System.out.println("erro, divisao por zero");
+            return Double.NaN;
+        }
+
+        return a/b;
+
 
     }
 
-    public static void dividir(double a, double b) {
-        calculadoraStatic07.resultado = a/b;
-        System.out.println("A divisão dos valores é igual: " + calculadoraStatic07.resultado);
 
-    }
 
 
 }
