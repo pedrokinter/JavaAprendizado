@@ -10,23 +10,34 @@ public class lojaDeTaxa08 {
         this.preco = preco;
     }
 
-    public double calcularPrecoComImposto(double preco) {
-        this.preco = preco;
-        return preco + (preco *  taxaImposto / 100);
-    }
-
-    public static double setTaxaImposto(double taxaImposto) {
+    public static void getTaxaImposto(double taxaImposto) {
         lojaDeTaxa08.taxaImposto = taxaImposto;
-        return lojaDeTaxa08.taxaImposto;
     }
 
+    public double calcularPrecoComImposto() {
+        return this.preco + (this.preco *  taxaImposto / 100);
+    }
+
+
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public static void setTaxaImposto(double taxaImposto) {
+        lojaDeTaxa08.taxaImposto = taxaImposto;
+    }
 
     public void exibirDados() {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-");
         System.out.println("Nome: " + this.nome);
         System.out.println("Preco: " + this.preco);
-        System.out.println("Preço com imposto: " + calcularPrecoComImposto(this.preco));
-        System.out.println("Taxa Imposto: " + lojaDeTaxa08.taxaImposto);
+        System.out.println("Preço com imposto: R$ " + calcularPrecoComImposto());
+        System.out.println("Taxa Imposto: " + lojaDeTaxa08.taxaImposto+ "%");
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-");
 
     }

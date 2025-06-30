@@ -18,9 +18,9 @@ public class ex008 {
 
         System.out.println("=-=-=-=-=-=-=-=-=-=--=-=-=");
         System.out.println("Digite a taxa de imposto sobre os produtos: ");
-        lojaDeTaxa08.setTaxaImposto(entrada.nextDouble());
+        lojaDeTaxa08.getTaxaImposto(entrada.nextDouble());
 
-        produto.calcularPrecoComImposto(preco);
+        produto.calcularPrecoComImposto();
 
         produto.exibirDados();
     }
