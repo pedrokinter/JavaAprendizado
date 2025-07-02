@@ -10,8 +10,14 @@ public class cursoExercicio01 {
     }
 
     public void imprimir() {
-        System.out.println("Nome: " + nome);
-        System.out.println("CargaHoraria: " + cargaHoraria);
+
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+            System.out.println("Nome do curso: " + this.nome);
+            System.out.println("Carga Horaria do curso: " + this.cargaHoraria+ " Horas");
+            System.out.println("Professor do curso: " + this.professor.getNome());
+            System.out.println("Especialidade do Professor: " + this.professor.getEspecialidade());
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
     }
 
 
