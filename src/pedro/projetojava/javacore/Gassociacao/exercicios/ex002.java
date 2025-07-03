@@ -11,6 +11,7 @@ public class ex002 {
         escolaExercicio02 escola = new escolaExercicio02("Mario Toledo");
         estudanteExercicio02 estudante = new estudanteExercicio02("Pedro", 11);
 
+
         estudanteExercicio02[] estudantes = {estudante};
 
         estudante.setEscola(escola);
