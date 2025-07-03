@@ -2,7 +2,7 @@ package pedro.projetojava.javacore.Gassociacao.dominiosExercicios;
 
 public class escolaExercicio02 {
     private String nome;
-    private estudanteExercicio02 [] estudantes;
+    private estudanteExercicio02[] estudantes;
 
 
     public escolaExercicio02(String nome) {

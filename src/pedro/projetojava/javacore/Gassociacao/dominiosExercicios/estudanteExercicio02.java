@@ -8,7 +8,6 @@ public class estudanteExercicio02 {
     public estudanteExercicio02(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
-
     }
 
 
