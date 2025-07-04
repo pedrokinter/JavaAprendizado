@@ -8,9 +8,11 @@ import java.util.Scanner;
 public class ex002 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        escolaExercicio02 escola = new escolaExercicio02("Mario Toledo");
-        estudanteExercicio02 estudante = new estudanteExercicio02("Pedro", 11);
 
+        System.out.println("Digite o nome da escola: ");
+        escolaExercicio02 escola = new escolaExercicio02(ler.nextLine());
+
+        estudanteExercicio02 estudante = new estudanteExercicio02("Pedro", 11);
 
         estudanteExercicio02[] estudantes = {estudante};
 
