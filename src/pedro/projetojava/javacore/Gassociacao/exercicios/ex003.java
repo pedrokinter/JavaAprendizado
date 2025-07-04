@@ -17,16 +17,14 @@ public class ex003 {
         System.out.println("Agora o CNPJ: ");
             String cnpjEmpresa = ler.nextLine();
         empresaExercicio03 empresa = new empresaExercicio03(nomeEmpresa, cnpjEmpresa);
-        ArrayList<departamentoExercicio03> departamentos = new ArrayList<>();
+        departamentoExercicio03 departamento = new departamentoExercicio03();
 
         funcionarioExercicio03 funcionario = new funcionarioExercicio03();
 
 
         while (true){
             System.out.println("Digite o nome do departamento: ");
-            departamentos.add(empresa.getDepartamentos());
-
-
+            
             System.out.println("quer sair?: ");
             String sair = ler.nextLine();
             if (sair.equals("sim")){

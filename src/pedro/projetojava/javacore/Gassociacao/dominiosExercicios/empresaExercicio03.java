@@ -18,7 +18,7 @@ public class empresaExercicio03 {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
         System.out.println("Nome da Empresa: " + this.nome);
         System.out.println("CNPJ da Empresa: " + this.CNPJ);
-        System.out.println("Departamentos da Empresa: " + getDepartamentos());
+        System.out.println("Departamentos da Empresa: " + this.departamentos);
 
 
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
