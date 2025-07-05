@@ -17,20 +17,54 @@ public class ex003 {
             String cnpjEmpresa = ler.nextLine();
 
         empresaExercicio03 empresa = new empresaExercicio03(nomeEmpresa, cnpjEmpresa);
-
-        departamentoExercicio03 departamento = new departamentoExercicio03("oi");
+        departamentoExercicio03 departamento0 = new departamentoExercicio03();
+        funcionarioExercicio03 funcionario0 = new funcionarioExercicio03();
 
         ArrayList<departamentoExercicio03> departamentosArray = new ArrayList<>();
+        ArrayList<funcionarioExercicio03> funcionariosArray = new ArrayList<>();
 
-        funcionarioExercicio03 funcionario = new funcionarioExercicio03();
 
-        departamentosArray.add(departamento);
 
-        departamento.setEmpresa(empresa);
+        while (true) {
+            System.out.println("Digite o nome dos departamentos: ");
+            departamentoExercicio03 departamento = new departamentoExercicio03(ler.nextLine());
 
-        empresa.setDepartamentos(departamentosArray);
+            departamentosArray.add(departamento);
+
+            departamento.setEmpresa(empresa);
+
+            empresa.setDepartamentos(departamentosArray);
+
+            System.out.println("Você quer parar de adicionar departamentos?: ");
+            String resposta = ler.nextLine();
+            if (resposta.equals("sim")) {
+                break;
+            }
+        }
+
+        System.out.println("--------------------------------------------------------------");
+
+        while (true){
+            System.out.println("Digite o nome dos funcionarios que pertencem aos departamentos: ");
+                funcionarioExercicio03 funcionario = new funcionarioExercicio03(ler.nextLine());
+
+            funcionariosArray.add(funcionario);
+
+            departamento0.setFuncionarios(funcionariosArray);
+
+            System.out.println("Você quer parar de adicionar funcionários?: ");
+                String resposta = ler.nextLine();
+                if (resposta.equals("sim")) {
+                break;
+                }
+        }
+
+
+
 
         empresa.exibirEmpresa();
+        departamento0.exibirDepartamentos();
+        funcionario0.exibirFuncionario();
 
 
     }

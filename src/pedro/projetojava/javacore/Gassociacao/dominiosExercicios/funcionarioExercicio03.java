@@ -5,7 +5,18 @@ public class funcionarioExercicio03 {
     private double salario;
     private departamentoExercicio03 departamento;
 
+    public funcionarioExercicio03() {}
 
+    public funcionarioExercicio03(String nome) {
+        this();
+        this.nome = nome;
+    }
+
+    public void exibirFuncionario() {
+        System.out.println("Nome dos funcionarios: " + nome);
+        System.out.println("Salario dos funcionarios: " + salario);
+        System.out.println("Departamento dos funcionarios: " + departamento.getNome());
+    }
 
 
     public String getNome() {

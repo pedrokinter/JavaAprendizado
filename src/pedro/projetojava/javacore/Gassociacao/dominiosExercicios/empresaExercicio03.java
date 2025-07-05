@@ -21,11 +21,11 @@ public class empresaExercicio03 {
         System.out.println("CNPJ da Empresa: " + this.CNPJ);
         System.out.println("Departamentos da Empresa: ");
         for (departamentoExercicio03 departamento : departamentos) {
-            System.out.println(departamento.getNome());
+            System.out.print(departamento.getNome() + " ");
         }
 
 
-        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+        System.out.println("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
     }
 
     public String getNome() {
