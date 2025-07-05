@@ -1,6 +1,7 @@
 package pedro.projetojava.javacore.Gassociacao.dominiosExercicios;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class empresaExercicio03 {
     private String nome;
@@ -18,7 +19,10 @@ public class empresaExercicio03 {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
         System.out.println("Nome da Empresa: " + this.nome);
         System.out.println("CNPJ da Empresa: " + this.CNPJ);
-        System.out.println("Departamentos da Empresa: " + this.departamentos);
+        System.out.println("Departamentos da Empresa: ");
+        for (departamentoExercicio03 departamento : departamentos) {
+            System.out.println(departamento.getNome());
+        }
 
 
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
