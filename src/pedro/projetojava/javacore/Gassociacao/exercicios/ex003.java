@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class ex003 {
     public static void main(String[] args) {
+
         Scanner ler = new Scanner(System.in);
 
         System.out.println("Digite o nome da sua empresa: ");
@@ -17,41 +18,34 @@ public class ex003 {
             String cnpjEmpresa = ler.nextLine();
 
         empresaExercicio03 empresa = new empresaExercicio03(nomeEmpresa, cnpjEmpresa);
-        departamentoExercicio03 departamento = new departamentoExercicio03();
-        funcionarioExercicio03 funcionario = new funcionarioExercicio03();
 
-        ArrayList<departamentoExercicio03> departamentosArray = new ArrayList<>();
-        ArrayList<funcionarioExercicio03> funcionariosArray = new ArrayList<>();
+            ArrayList<departamentoExercicio03> departamentos = new ArrayList<>();
+            ArrayList<funcionarioExercicio03> funcionarios = new ArrayList<>();
 
+        while (true){
+            System.out.println("Digite os departamentos da sua empresa: ");
 
-        departamento.setEmpresa(empresa);
+                departamentoExercicio03 d1 = new departamentoExercicio03(ler.nextLine());
 
-        while (true) {
-            System.out.println("Digite o nome dos departamentos: ");
-                departamentoExercicio03 departamentoTeste = new departamentoExercicio03(ler.nextLine());
+                departamentos.add(d1);
+                empresa.setDepartamentos(departamentos);
 
-                departamentosArray.add(departamentoTeste);
+            System.out.println("Digite o funcionario do departamento e seu salário: ");
 
-                empresa.setDepartamentos(departamentosArray);
+                funcionarioExercicio03 f1 = new funcionarioExercicio03(ler.nextLine(), ler.nextDouble());
+                ler.nextLine();
+                funcionarios.add(f1);
+                d1.setFuncionarios(funcionarios);
+                f1.setDepartamento(d1);
 
-            System.out.println("Digite o nome do funcionario que pertence a esse departamento: ");
-                funcionarioExercicio03 funcionarioTeste = new funcionarioExercicio03(ler.nextLine(), ler.nextDouble());
-
-                funcionariosArray.add(funcionarioTeste);
-
-                funcionarioTeste.setDepartamento(departamento);
-
-                departamentosArray.add(0, departamento);
-            break;
+            System.out.println("quer sair? ");
+                String perg = ler.nextLine();
+                if (perg.equals("sim")){
+                break;
+                }
         }
 
-        System.out.println("--------------------------------------------------------------");
-
-
         empresa.exibirEmpresa();
-        departamento.exibirDepartamentos();
-        funcionario.exibirFuncionario();
-
 
     }
 }

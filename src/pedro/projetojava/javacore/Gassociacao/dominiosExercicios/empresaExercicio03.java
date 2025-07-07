@@ -16,17 +16,22 @@ public class empresaExercicio03 {
     }
 
     public void exibirEmpresa() {
+
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-        System.out.println("Nome da Empresa: " + this.nome);
-        System.out.println("CNPJ da Empresa: " + this.CNPJ);
-        System.out.println("Departamentos da Empresa: ");
+        System.out.println("Nome da empresa: " + nome);
+        System.out.println("CNPJ da empresa: " + CNPJ);
+        System.out.println("Departamentos da empresa: ");
         for (departamentoExercicio03 departamento : departamentos) {
             departamento.exibirDepartamentos();
         }
 
 
-        System.out.println("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-    }
+
+        }
+
+
+
+
 
     public String getNome() {
         return nome;

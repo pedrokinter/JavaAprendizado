@@ -7,21 +7,20 @@ public class departamentoExercicio03 {
     private ArrayList<funcionarioExercicio03> funcionarios;
     private empresaExercicio03 empresa;
 
-    public departamentoExercicio03() {
-    }
+
 
     public departamentoExercicio03(String nome) {
-        this();
+
         this.nome = nome;
     }
 
     public void exibirDepartamentos () {
-        System.out.println("=-=-=-=-=--=-=-=-==-=-=-=-=-");
-        System.out.println("Nome do departamento : ");
-        System.out.println("Lista de funcionarios: ");
+        System.out.println( "Nome do departamento: " + nome);
+        System.out.println("Funcionarios: ");
         for (funcionarioExercicio03 funcionario : funcionarios) {
-            System.out.println(funcionario.getNome());
+            funcionario.exibirFuncionario();
         }
+
 
     }
 
