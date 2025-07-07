@@ -8,7 +8,6 @@ public class departamentoExercicio03 {
     private empresaExercicio03 empresa;
 
     public departamentoExercicio03() {
-
     }
 
     public departamentoExercicio03(String nome) {
@@ -17,17 +16,13 @@ public class departamentoExercicio03 {
     }
 
     public void exibirDepartamentos () {
-        System.out.println("Nome dos departamentos: ");
-        for (int i = 0; i < empresa.getDepartamentos().toArray().length; i++) {
-            System.out.println(empresa.getDepartamentos().toArray()[i]);
-        }
-
+        System.out.println("=-=-=-=-=--=-=-=-==-=-=-=-=-");
+        System.out.println("Nome do departamento : ");
         System.out.println("Lista de funcionarios: ");
         for (funcionarioExercicio03 funcionario : funcionarios) {
-            System.out.print(funcionario.getNome() + " ");
+            System.out.println(funcionario.getNome());
         }
-        System.out.println("\nNome da empresa que pertence: " + empresa.getNome());
-        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+
     }
 
 

@@ -7,15 +7,15 @@ public class funcionarioExercicio03 {
 
     public funcionarioExercicio03() {}
 
-    public funcionarioExercicio03(String nome) {
+    public funcionarioExercicio03(String nome, double salario) {
         this();
+        this.salario = salario;
         this.nome = nome;
     }
 
     public void exibirFuncionario() {
-        System.out.println("Nome dos funcionarios: " + nome);
-        System.out.println("Salario dos funcionarios: " + salario);
-        System.out.println("Departamento dos funcionarios: " + departamento.getNome());
+        System.out.println("Nome dos funcionario: " + this.nome);
+        System.out.println("Salario dos funcionario: " + this.salario);
     }
 
 
