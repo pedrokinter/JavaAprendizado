@@ -20,6 +20,7 @@ public class empresaExercicio03 {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
         System.out.println("Nome da empresa: " + nome);
         System.out.println("CNPJ da empresa: " + CNPJ);
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
         System.out.println("Departamentos da empresa: ");
         for (departamentoExercicio03 departamento : departamentos) {
             departamento.exibirDepartamentos();

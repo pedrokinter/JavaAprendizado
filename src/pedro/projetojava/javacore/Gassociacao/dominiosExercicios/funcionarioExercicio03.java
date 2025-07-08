@@ -14,8 +14,8 @@ public class funcionarioExercicio03 {
 
     public void exibirFuncionario() {
 
-        System.out.print(this.nome + " ");
-        System.out.println("--------------------------------");
+        System.out.println(this.nome + " ");
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
     }
 
 
