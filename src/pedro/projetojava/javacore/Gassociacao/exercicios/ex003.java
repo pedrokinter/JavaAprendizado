@@ -20,9 +20,11 @@ public class ex003 {
         empresaExercicio03 empresa = new empresaExercicio03(nomeEmpresa, cnpjEmpresa);
 
             ArrayList<departamentoExercicio03> departamentos = new ArrayList<>();
-            ArrayList<funcionarioExercicio03> funcionarios = new ArrayList<>();
+
 
         while (true){
+            ArrayList<funcionarioExercicio03> funcionarios = new ArrayList<>(); // joguei o array pra dentro, ai ele reseta
+
             System.out.println("Digite os departamentos da sua empresa: ");
 
                 departamentoExercicio03 d1 = new departamentoExercicio03(ler.nextLine());
@@ -34,9 +36,13 @@ public class ex003 {
 
                 funcionarioExercicio03 f1 = new funcionarioExercicio03(ler.nextLine(), ler.nextDouble());
                 ler.nextLine();
-                funcionarios.add(f1);
+
+
                 d1.setFuncionarios(funcionarios);
+
                 f1.setDepartamento(d1);
+
+                d1.getFuncionarios().add(f1); // aq ele ja adiciona direto no departamento o funcionario
 
             System.out.println("quer sair? ");
                 String perg = ler.nextLine();

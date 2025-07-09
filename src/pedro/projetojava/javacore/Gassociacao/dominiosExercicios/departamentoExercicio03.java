@@ -12,21 +12,19 @@ public class departamentoExercicio03 {
     public departamentoExercicio03(String nome) {
 
         this.nome = nome;
+        this.funcionarios = new ArrayList<>();
+
     }
+
+
 
     public void exibirDepartamentos () {
         System.out.println("Nome do departamento: " + nome);
-        System.out.println("Funcionarios: ");
-        for (int i = 0; i < funcionarios.size(); i++) {
-            funcionarioExercicio03[] teste = new funcionarioExercicio03[funcionarios.size()];
-            for (int j = 0; j < funcionarios.size(); j++) {
-                teste[i] = funcionarios.get(j);
-            }
-            for (funcionarioExercicio03 f : funcionarios) {
-                System.out.println(f.getNome());
-            }
-        }
+        System.out.println("Funcionario: ");
+        for (funcionarioExercicio03 funcionario : funcionarios) {
+            funcionario.exibirFuncionario();
 
+        }
 
 
 
