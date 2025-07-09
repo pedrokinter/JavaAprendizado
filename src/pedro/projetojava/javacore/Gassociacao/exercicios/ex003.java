@@ -27,22 +27,20 @@ public class ex003 {
 
             System.out.println("Digite os departamentos da sua empresa: ");
 
-                departamentoExercicio03 d1 = new departamentoExercicio03(ler.nextLine());
+                departamentoExercicio03 novoDepartamento = new departamentoExercicio03(ler.nextLine());
 
-                departamentos.add(d1);
-                empresa.setDepartamentos(departamentos);
+                departamentos.add(novoDepartamento);
+
 
             System.out.println("Digite o funcionario do departamento e seu salário: ");
 
-                funcionarioExercicio03 f1 = new funcionarioExercicio03(ler.nextLine(), ler.nextDouble());
+                funcionarioExercicio03 novoFuncionario = new funcionarioExercicio03(ler.nextLine(), ler.nextDouble());
                 ler.nextLine();
 
 
-                d1.setFuncionarios(funcionarios);
+                novoFuncionario.setDepartamento(novoDepartamento);
 
-                f1.setDepartamento(d1);
-
-                d1.getFuncionarios().add(f1); // aq ele ja adiciona direto no departamento o funcionario
+                novoDepartamento.getFuncionarios().add(novoFuncionario); // aq ele ja adiciona direto no departamento o funcionario
 
             System.out.println("quer sair? ");
                 String perg = ler.nextLine();
@@ -51,6 +49,7 @@ public class ex003 {
                 }
         }
 
+        empresa.setDepartamentos(departamentos);
         empresa.exibirEmpresa();
 
     }
