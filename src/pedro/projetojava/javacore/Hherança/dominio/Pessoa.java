@@ -5,6 +5,26 @@ public class Pessoa {
     private String cpf;
     private Endereco endereco;
 
+    static {
+        System.out.println("Dentro do bloco de inicializaççao estatico de pessoa");
+    }
+    {
+        System.out.println("Dentro do bloco de inicializaççao estatico de pessoa 1 ");
+
+    }
+    {
+        System.out.println("Dentro do bloco de inicializaççao estatico de pessoa 2 ");
+
+    }
+
+
+    public Pessoa(String nome){
+        this.nome = nome;
+    }
+
+
+
+
     public void imprimir() {
         System.out.println("Nome: " + nome);
         System.out.println("CPF: " + cpf);

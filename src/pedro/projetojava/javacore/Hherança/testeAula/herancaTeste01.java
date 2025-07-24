@@ -6,9 +6,9 @@ import pedro.projetojava.javacore.Hherança.dominio.Pessoa;
 
 public class herancaTeste01 {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa();
+        Pessoa pessoa = new Pessoa("Bernardo");
         Endereco endereco = new Endereco();
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new Funcionario("Bernardo");
 
         endereco.setRua("jacinto pinto");
         endereco.setCep("0777-77");
@@ -17,7 +17,7 @@ public class herancaTeste01 {
         pessoa.setCpf("123456789");
         pessoa.setEndereco(endereco);
 
-        funcionario.setNome("Bernardo");
+
         funcionario.setCpf("987654321");
         funcionario.setEndereco(endereco);
         funcionario.setSalario(10000);
