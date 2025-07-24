@@ -9,6 +9,7 @@ public class professorExercicio extends pessoaExercicio {
         this.salario = salario;
     }
 
+    @Override
     public void exibirInformacoes() {
         super.exibirInformacoes();
         System.out.println("Salario: " + this.salario);

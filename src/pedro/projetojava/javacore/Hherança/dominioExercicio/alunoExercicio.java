@@ -7,9 +7,10 @@ public class alunoExercicio  extends pessoaExercicio {
 
     public alunoExercicio(String nome, String cpf, String matricula) {
         super(nome, cpf);
-        this.matricula = nome;
+        this.matricula = matricula;
     }
 
+    @Override
     public void exibirInformacoes(){
         super.exibirInformacoes();
         System.out.println("Matricula: " + matricula);

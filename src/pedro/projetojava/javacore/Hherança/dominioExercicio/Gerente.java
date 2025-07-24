@@ -2,14 +2,14 @@ package pedro.projetojava.javacore.Hherança.dominioExercicio;
 
 public class Gerente extends funcionarioSuper {
     private String setor;
-    private String nome;
+    //private String nome; // <----- nao precisa, pois ja tem no construtor pro super
     //private int idade;
 
     public Gerente(String nome, double salario, String setor) {
         super(nome, salario);
         this.setor = setor;
     }
-
+    @Override
     public void exibirDados() {
         super.exibirDados();
         System.out.println("Setor: " + setor);

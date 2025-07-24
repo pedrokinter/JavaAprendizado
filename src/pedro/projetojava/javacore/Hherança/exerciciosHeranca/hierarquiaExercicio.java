@@ -17,6 +17,8 @@ public class hierarquiaExercicio {
         professor.exibirInformacoes();
         System.out.println("=-=-==-=-==-=-==-=-==-=-==-=-=");
 
+        // dava pra declarar um array de PessoaExercicio e percorrer com um for, chamando exibirInformacoes() para mostrar
+        // o polimorfismo funcionando (segundo o gpt)
 
     }
 }

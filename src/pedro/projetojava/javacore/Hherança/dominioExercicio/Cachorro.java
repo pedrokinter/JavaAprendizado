@@ -6,6 +6,7 @@ public class Cachorro extends Animal {
         super(nome, idade);
     }
 
+    @Override
     public void fazerSom() {
         System.out.println("O cachorro late");
     }
