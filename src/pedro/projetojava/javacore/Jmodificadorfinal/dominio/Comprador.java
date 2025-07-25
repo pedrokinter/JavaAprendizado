@@ -1,12 +1,13 @@
-package pedro.projetojava.javacore.Lsobrescrita.dominios;
+package pedro.projetojava.javacore.Jmodificadorfinal.dominio;
 
-public class animeSobrescrito {
+public class Comprador {
     private String nome;
 
-
-
+    @Override
     public String toString() {
-        return "Anime: " + this.nome;
+        return "Comprador{" +
+                "nome='" + nome + '\'' +
+                '}';
     }
 
     public String getNome() {
