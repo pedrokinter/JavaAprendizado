@@ -4,11 +4,12 @@ public class Pedido {
     private String id;
     private String descricao;
     private StatusPedido status;
+    private double valorTotal;
 
-    public Pedido(String id, String descricao) {
+    public Pedido(String id, String descricao, double valorTotal) {
         this.id = id;
         this.descricao = descricao;
-
+        this.valorTotal = valorTotal;
     }
 
     @Override
@@ -42,5 +43,14 @@ public class Pedido {
 
     public void setStatus(StatusPedido status) {
         this.status = status;
+    }
+
+
+    public double getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(double valorTotal) {
+        this.valorTotal = valorTotal;
     }
 }
