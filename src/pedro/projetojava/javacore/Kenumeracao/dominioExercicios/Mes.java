@@ -75,10 +75,10 @@ public enum Mes {
     };
 
 
-    private static String verao = "Verão";
-    private static String outono = "Outono";
-    private static String inverno = "Inverno";
-    private static String primavera = "Primavera";
+    private static final String verao = "Verão";
+    private static final String outono = "Outono";
+    private static final String inverno = "Inverno";
+    private static final String primavera = "Primavera";
 
 
 
@@ -86,32 +86,16 @@ public enum Mes {
         return verao;
     }
 
-    public static void setVerao(String verao) {
-        Mes.verao = verao;
-    }
-
     public static String getOutono() {
         return outono;
-    }
-
-    public static void setOutono(String outono) {
-        Mes.outono = outono;
     }
 
     public static String getInverno() {
         return inverno;
     }
 
-    public static void setInverno(String inverno) {
-        Mes.inverno = inverno;
-    }
-
     public static String getPrimavera() {
         return primavera;
-    }
-
-    public static void setPrimavera(String primavera) {
-        Mes.primavera = primavera;
     }
 
     public abstract String estacoes();

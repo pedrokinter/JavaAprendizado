@@ -10,27 +10,18 @@ public class OperacaoTeste {
         System.out.println("Digite 2 valores a serem somados, subtraidos, multiplicados ou divididos: ");
         while (true) {
             System.out.println("valor 1: ");
-            int valor1 = entrada.nextInt();
+            double valor1 = entrada.nextInt();
             System.out.println("valor 2: ");
-            int valor2 = entrada.nextInt();
+            double valor2 = entrada.nextInt();
 
-            System.out.println("voce quer somar, subtrair, multiplicar, dividir: ");
-            String operacao = entrada.next().toLowerCase();
-            switch (operacao) {
-                case "somar":
-                    System.out.println("A soma dos dois valores é: " + OperacaoMatematica.SOMA.executar(valor1, valor2));
-                    break;
-                case "subtrair":
-                    System.out.println("A subtracao dos dois valores é: " + OperacaoMatematica.SUBTRACAO.executar(valor1, valor2));
-                    break;
-                case "multiplicar":
-                    System.out.println("A multiplicacao dos dois valores é: " + OperacaoMatematica.MULTIPLICACAO.executar(valor1, valor2));
-                    break;
-                case "dividir":
-                    System.out.println("A divisao dos dois valores é: " + OperacaoMatematica.DIVISAO.executar(valor1, valor2));
-                    break;
+            System.out.println("voce quer SOMA, SUBTRAÇAO, MULTIPLICAÇÃO, DIVISAO: ");
+            OperacaoMatematica operacao = OperacaoMatematica.valueOf(entrada.next().toUpperCase());
+            System.out.println("Resultado: " + operacao.executar(valor1, valor2));
+
+            System.out.println("Deseja continuar? (SIM/NAO)");
+            if (entrada.next().equalsIgnoreCase("nao")){
+                break;
             }
-            break;
         }
 
 
