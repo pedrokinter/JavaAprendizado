@@ -1,8 +1,12 @@
 package pedro.projetojava.javacore.Lclassesabstratas.dominios;
 
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa {
     protected String nome;
     protected double salario;
+
+    public void imprimir() {
+        System.out.println("imprimindo......");
+    }
 
     public Funcionario(String nome, double salario) {
         this.nome = nome;

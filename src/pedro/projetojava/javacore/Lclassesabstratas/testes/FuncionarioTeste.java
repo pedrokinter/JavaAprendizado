@@ -7,5 +7,7 @@ public class FuncionarioTeste {
         Gerente g = new Gerente("pedro", 2000);
 
         System.out.println(g);
+
+        g.imprimir();
     }
 }
