@@ -1,6 +1,5 @@
 package pedro.projetojava.javacore.Kenumeracao.dominioExercicios;
 
-public class Validavel {
-    private TipoCampo tipoCampo;
-
+public interface Validavel {
+    boolean validar(String entrada);
 }
