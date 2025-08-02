@@ -3,6 +3,10 @@ package pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios;
 public class CirculoForma extends Forma{
     private double raio;
 
+    public CirculoForma(double raio) {
+        this.raio = raio;
+    }
+
     public double calcularArea() {
         return this.raio * this.raio * Math.PI;
     }

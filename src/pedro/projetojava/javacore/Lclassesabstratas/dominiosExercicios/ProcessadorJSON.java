@@ -7,14 +7,17 @@ public class ProcessadorJSON extends ProcessadorDeArquivo{
 
     @Override
     public void lerArquivo() {
-        System.out.println("{ nome:" + "  " + getNome());
-        System.out.println("idade:" + "  " + getIdade());
-        System.out.println("cidade:" + "  " +  getCidade() +" }");
+        System.out.println("{");
+        System.out.println(" \"nome\": \"" + getNome() + "\",");
+        System.out.println(" \"idade\": \"" + getIdade() + "\",");
+        System.out.println(" \"cidade\": \"" + getCidade() + "\"");
+        System.out.println("}");
     }
 
     @Override
     public void processarConteudo() {
         System.out.println("{ nome:" + "  " + getNome());
-        System.out.println("idade:" + "  " + getIdade() + " }");
+        System.out.println("idade:" + "  " + getIdade());
+        System.out.println(" cidade:" + "  " + getCidade() + "}");
     }
 }

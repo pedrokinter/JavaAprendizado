@@ -1,8 +1,11 @@
 package pedro.projetojava.javacore.Lclassesabstratas.exercicios;
 
 import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorCSV;
+import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorDeArquivo;
 import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorJSON;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class processadorTeste {
@@ -10,6 +13,7 @@ public class processadorTeste {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o nome, idade e sua cidade para serem colocados em um arquivo CSV e JSON");
 
+        List<ProcessadorDeArquivo> arquivos = new ArrayList<ProcessadorDeArquivo>();
 
         System.out.println("Nome: ");
         String nome = entrada.nextLine();
@@ -20,11 +24,14 @@ public class processadorTeste {
         System.out.println("Cidade: ");
         String cidade = entrada.nextLine();
 
-        ProcessadorCSV CSV = new ProcessadorCSV(nome, idade, cidade);
-        ProcessadorJSON JSON = new ProcessadorJSON(nome, idade, cidade);
-        System.out.println("=-=--=-=-=-=-=-=-==-=-=");
-        CSV.executar();
-        System.out.println("=-=--=-=-=-=-=-=-==-=-=");
-        JSON.executar();
+        ProcessadorCSV csv = new ProcessadorCSV(nome, idade, cidade);
+        ProcessadorJSON json = new ProcessadorJSON(nome, idade, cidade);
+        
+        arquivos.add(csv);
+        arquivos.add(json);
+
+        for (ProcessadorDeArquivo arquivo : arquivos) {
+            arquivo.executar();
+        }
     }
 }
