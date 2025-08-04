@@ -1,6 +1,6 @@
 package pedro.projetojava.javacore.Npolimorfismo.dominios;
 
-public abstract class Produto {
+public abstract class Produto implements Taxavel {
     protected String nome;
     protected double valor;
 
