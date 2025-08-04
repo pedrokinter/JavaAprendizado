@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Fmodificadoresestatico.dominiosAulas;
+package pedro.ProjetoJava.javacore.Fmodificadoresestatico.dominiosAulas;
 
 public class carro {
     private String marca;

@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Gassociacao.testeAula;
+package pedro.ProjetoJava.javacore.Gassociacao.testeAula;
 
-import pedro.projetojava.javacore.Gassociacao.dominio.Jogador;
-import pedro.projetojava.javacore.Gassociacao.dominio.Time;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.Jogador;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.Time;
 
 public class jogadorTest02 {
     public static void main(String[] args) {

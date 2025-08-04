@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Hherança.exerciciosHeranca;
+package pedro.ProjetoJava.javacore.Hherança.exerciciosHeranca;
 
-import pedro.projetojava.javacore.Hherança.dominioExercicio.Gerente;
-import pedro.projetojava.javacore.Hherança.dominioExercicio.funcionarioSuper;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.Gerente;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.funcionarioSuper;
 
 public class superExercicio {
     public static void main(String[] args) {

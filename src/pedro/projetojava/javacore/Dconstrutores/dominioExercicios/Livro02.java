@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Dconstrutores.dominioExercicios;
+package pedro.ProjetoJava.javacore.Dconstrutores.dominioExercicios;
 
 public class Livro02 {
     private String titulo;

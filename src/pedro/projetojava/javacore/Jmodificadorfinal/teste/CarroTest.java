@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Jmodificadorfinal.teste;
+package pedro.ProjetoJava.javacore.Jmodificadorfinal.teste;
 
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.Carro;
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.Ferrari;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.Carro;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.Ferrari;
 
 public class CarroTest {
     public static void main(String[] args) {

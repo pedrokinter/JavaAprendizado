@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Jmodificadorfinal.dominio;
+package pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio;
 
 public class CarroExercicio extends VeiculoExercicio{
         private int portas;

@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Npolimorfismo.dominios;
+package pedro.ProjetoJava.javacore.Npolimorfismo.dominios;
 
 public interface Taxavel {
     double calcularImposto();

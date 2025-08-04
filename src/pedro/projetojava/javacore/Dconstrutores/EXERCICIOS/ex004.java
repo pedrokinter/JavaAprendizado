@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Dconstrutores.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Dconstrutores.EXERCICIOS;
 
-import pedro.projetojava.javacore.Dconstrutores.dominioExercicios.contaBancaria;
+import pedro.ProjetoJava.javacore.Dconstrutores.dominioExercicios.contaBancaria;
 
 import java.util.Scanner;
 

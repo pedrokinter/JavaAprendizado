@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios;
 
 public class Jogador017 {
     private String nome;

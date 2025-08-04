@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Fmodificadoresestatico.aulasTeste;
+package pedro.ProjetoJava.javacore.Fmodificadoresestatico.aulasTeste;
 
-import pedro.projetojava.javacore.Fmodificadoresestatico.dominiosAulas.carro;
+import pedro.ProjetoJava.javacore.Fmodificadoresestatico.dominiosAulas.carro;
 
 public class carroTESTEEEEE {
     public static void main(String[] args) {

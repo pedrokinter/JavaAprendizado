@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Hherança.dominioExercicio;
+package pedro.ProjetoJava.javacore.Hherança.dominioExercicio;
 
 public class funcionarioSuper {
     private String nome;

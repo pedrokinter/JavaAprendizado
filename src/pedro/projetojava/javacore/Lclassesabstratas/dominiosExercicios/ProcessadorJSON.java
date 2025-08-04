@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios;
 
 public class ProcessadorJSON extends ProcessadorDeArquivo{
     public ProcessadorJSON(String nome, String idade, String cidade) {

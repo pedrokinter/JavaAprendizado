@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Lclassesabstratas.dominios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.dominios;
 
 public class Gerente extends Funcionario{
     public Gerente(String nome, double salario) {

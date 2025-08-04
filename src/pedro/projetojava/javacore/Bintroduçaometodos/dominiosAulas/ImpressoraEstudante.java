@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosAulas;
 
 public class ImpressoraEstudante {
     public void imprimirEstudante(Estudante estudante) {

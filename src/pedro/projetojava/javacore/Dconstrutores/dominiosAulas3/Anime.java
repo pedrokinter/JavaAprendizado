@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Dconstrutores.dominiosAulas3;
+package pedro.ProjetoJava.javacore.Dconstrutores.dominiosAulas3;
 
 public class Anime {
     private String nome;

@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios;
 
 public class Triangulo007 {
     public int lado1; // 5 // 10

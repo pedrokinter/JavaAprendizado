@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Dconstrutores.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Dconstrutores.EXERCICIOS;
 
-import pedro.projetojava.javacore.Dconstrutores.dominioExercicios.funcionarioEstatico06;
+import pedro.ProjetoJava.javacore.Dconstrutores.dominioExercicios.funcionarioEstatico06;
 
 import java.util.Scanner;
 

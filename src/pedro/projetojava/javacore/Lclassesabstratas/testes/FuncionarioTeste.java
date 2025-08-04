@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Lclassesabstratas.testes;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.testes;
 
-import pedro.projetojava.javacore.Lclassesabstratas.dominios.Gerente;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominios.Gerente;
 
 public class FuncionarioTeste {
     public static void main(String[] args) {

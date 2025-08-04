@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Kenumeracao.exercicios;
+package pedro.ProjetoJava.javacore.Kenumeracao.exercicios;
 
-import pedro.projetojava.javacore.Kenumeracao.dominioExercicios.TipoCampo;
+import pedro.ProjetoJava.javacore.Kenumeracao.dominioExercicios.TipoCampo;
 
 public class ValidavelTeste {
     public static void main(String[] args) {

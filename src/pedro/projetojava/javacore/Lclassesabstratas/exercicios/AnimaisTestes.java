@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Lclassesabstratas.exercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.exercicios;
 
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.Animal;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.Cachorro;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.Gato;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.Animal;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.Cachorro;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.Gato;
 
 public class AnimaisTestes {
     public static void main(String[] args) {

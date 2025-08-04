@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Lclassesabstratas.exercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.exercicios;
 
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorCSV;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorDeArquivo;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorJSON;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorCSV;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorDeArquivo;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.ProcessadorJSON;
 
 import java.util.ArrayList;
 import java.util.List;

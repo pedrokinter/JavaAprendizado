@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Carro005;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios.Carro005;
 
 import java.util.Scanner;
 

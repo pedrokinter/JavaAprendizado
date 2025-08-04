@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios;
 
 import java.util.Arrays;
 

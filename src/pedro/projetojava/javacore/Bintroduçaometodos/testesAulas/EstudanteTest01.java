@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.testesAulas;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.testesAulas;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas.Estudante;
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas.ImpressoraEstudante;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosAulas.Estudante;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosAulas.ImpressoraEstudante;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {

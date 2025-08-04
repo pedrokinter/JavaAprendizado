@@ -1,6 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominiosTestesPessoais;
-
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Retangulo011;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosTestesPessoais;
 
 public class RetanguloRefeito {
     public double largura;

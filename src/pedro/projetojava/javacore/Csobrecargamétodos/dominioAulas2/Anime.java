@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Csobrecargamétodos.dominioAulas2;
+package pedro.ProjetoJava.javacore.Csobrecargamétodos.dominioAulas2;
 
 public class Anime {
     private String nome;

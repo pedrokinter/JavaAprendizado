@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Kenumeracao.dominioExercicios;
+package pedro.ProjetoJava.javacore.Kenumeracao.dominioExercicios;
 
 public enum DiasDaSemana {
     SEGUNDA_FEIRA("Segunda-Feira"),

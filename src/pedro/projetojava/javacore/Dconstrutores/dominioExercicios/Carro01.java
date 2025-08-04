@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Dconstrutores.dominioExercicios;
+package pedro.ProjetoJava.javacore.Dconstrutores.dominioExercicios;
 
 public class Carro01 {
     private String modelo;

@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Npolimorfismo.servico;
+package pedro.ProjetoJava.javacore.Npolimorfismo.servico;
 
-import pedro.projetojava.javacore.Npolimorfismo.dominios.Computador;
+import pedro.ProjetoJava.javacore.Npolimorfismo.dominios.Computador;
 
 public class CalculadoraImposto {
     public static void calcularImpostoComputador(Computador computador) {

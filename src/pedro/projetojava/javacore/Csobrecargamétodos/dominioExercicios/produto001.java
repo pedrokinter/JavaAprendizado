@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Csobrecargamétodos.dominioExercicios;
+package pedro.ProjetoJava.javacore.Csobrecargamétodos.dominioExercicios;
 
 public class produto001 {
     private String nome;

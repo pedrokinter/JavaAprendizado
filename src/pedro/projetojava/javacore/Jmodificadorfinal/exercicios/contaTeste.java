@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Jmodificadorfinal.exercicios;
+package pedro.ProjetoJava.javacore.Jmodificadorfinal.exercicios;
 
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.ContaBancaria;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.ContaBancaria;
 
 public class contaTeste {
     public static void main(String[] args) {

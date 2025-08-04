@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Temperatura012;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios.Temperatura012;
 
 import java.util.Scanner;
 

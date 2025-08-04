@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.testesPessoais;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.testesPessoais;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosTestesPessoais.ParametroPrimitivo;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosTestesPessoais.ParametroPrimitivo;
 
 public class ParametroPrimitivoTest {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Lclassesabstratas.exercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.exercicios;
 
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.CirculoForma;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.Forma;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.RetanguloForma;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.CirculoForma;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.Forma;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.RetanguloForma;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.testesAulas;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.testesAulas;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas.Estudante;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosAulas.Estudante;
 
 public class EstudanteTest02 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Aintroduçaoclasses.dominio;
+package pedro.ProjetoJava.javacore.Aintroduçaoclasses.dominio;
 
 public class Estudante {
     // isso aq é uma classe que vai dar origem ao objeto de pessoa

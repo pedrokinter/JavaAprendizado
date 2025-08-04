@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Kenumeracao.exercicios;
+package pedro.ProjetoJava.javacore.Kenumeracao.exercicios;
 
-import pedro.projetojava.javacore.Kenumeracao.dominioExercicios.Agenda;
-import pedro.projetojava.javacore.Kenumeracao.dominioExercicios.DiasDaSemana;
+import pedro.ProjetoJava.javacore.Kenumeracao.dominioExercicios.Agenda;
+import pedro.ProjetoJava.javacore.Kenumeracao.dominioExercicios.DiasDaSemana;
 
 import java.util.Scanner;
 

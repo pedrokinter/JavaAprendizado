@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Aintroduçaoclasses.test;
+package pedro.ProjetoJava.javacore.Aintroduçaoclasses.test;
 
-import pedro.projetojava.javacore.Aintroduçaoclasses.dominio.Carro;
+import pedro.ProjetoJava.javacore.Aintroduçaoclasses.dominio.Carro;
 
 public class Carro002 {
     public static void main(String[] args) {

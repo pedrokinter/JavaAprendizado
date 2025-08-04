@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Gassociacao.dominio;
+package pedro.ProjetoJava.javacore.Gassociacao.dominio;
 
 public class Time {
     private String nome;

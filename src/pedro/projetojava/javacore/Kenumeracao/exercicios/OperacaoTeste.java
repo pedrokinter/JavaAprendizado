@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Kenumeracao.exercicios;
+package pedro.ProjetoJava.javacore.Kenumeracao.exercicios;
 
-import pedro.projetojava.javacore.Kenumeracao.dominioExercicios.OperacaoMatematica;
+import pedro.ProjetoJava.javacore.Kenumeracao.dominioExercicios.OperacaoMatematica;
 
 import java.util.Scanner;
 

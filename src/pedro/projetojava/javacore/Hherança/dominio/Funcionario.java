@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Hherança.dominio;
+package pedro.ProjetoJava.javacore.Hherança.dominio;
 
 public class Funcionario  extends Pessoa {
     private double salario;

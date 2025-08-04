@@ -1,4 +1,4 @@
-package pedro.projetojava.exercicio;
+package pedro.ProjetoJava.exercicio;
 
 import java.time.LocalDate;
 import java.util.Scanner;
