@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios;
 
 public abstract class Pagamento {
     protected double valor;

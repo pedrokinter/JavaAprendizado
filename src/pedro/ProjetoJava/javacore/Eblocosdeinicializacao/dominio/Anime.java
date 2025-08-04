@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Eblocosdeinicializacao.dominio;
+package pedro.ProjetoJava.javacore.Eblocosdeinicializacao.dominio;
 
 public class Anime {
     private String nome;

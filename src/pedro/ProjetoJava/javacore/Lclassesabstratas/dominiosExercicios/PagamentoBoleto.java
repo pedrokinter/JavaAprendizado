@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios;
 
 public class PagamentoBoleto extends Pagamento {
     public PagamentoBoleto(double valorAPagar) {

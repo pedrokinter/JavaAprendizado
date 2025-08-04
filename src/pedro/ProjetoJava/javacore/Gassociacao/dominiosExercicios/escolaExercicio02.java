@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Gassociacao.dominiosExercicios;
+package pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios;
 
 public class escolaExercicio02 {
     private String nome;

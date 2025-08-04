@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Jmodificadorfinal.exercicios;
+package pedro.ProjetoJava.javacore.Jmodificadorfinal.exercicios;
 
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.Contrato;
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.DocumentoExercicio;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.Contrato;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.DocumentoExercicio;
 
 public class documentoTeste {
     public static void main(String[] args) {

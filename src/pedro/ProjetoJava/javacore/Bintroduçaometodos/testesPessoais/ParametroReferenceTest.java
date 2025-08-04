@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.testesPessoais;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.testesPessoais;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosTestesPessoais.ImpressoraReference;
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosTestesPessoais.ParametroReference;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosTestesPessoais.ImpressoraReference;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosTestesPessoais.ParametroReference;
 
 public class ParametroReferenceTest {
     public static void main(String[] args) {

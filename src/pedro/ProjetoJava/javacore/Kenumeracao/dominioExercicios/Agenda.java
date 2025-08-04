@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Kenumeracao.dominioExercicios;
+package pedro.ProjetoJava.javacore.Kenumeracao.dominioExercicios;
 
 public class Agenda {
     private DiasDaSemana diaSemana;

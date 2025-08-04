@@ -1,4 +1,4 @@
-package pedro.projetojava.aulas;
+package pedro.ProjetoJava.aulas;
 
 public class aula005condicionaisb {
     public static void main(String[] args) {

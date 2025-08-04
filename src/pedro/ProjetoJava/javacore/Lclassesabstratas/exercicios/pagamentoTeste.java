@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Lclassesabstratas.exercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.exercicios;
 
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.PagamentoBoleto;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.PagamentoCartao;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.PagamentoBoleto;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.PagamentoCartao;
 
 public class pagamentoTeste {
     public static void main(String[] args) {

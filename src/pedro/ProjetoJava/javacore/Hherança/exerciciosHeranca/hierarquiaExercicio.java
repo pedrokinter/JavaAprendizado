@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Hherança.exerciciosHeranca;
+package pedro.ProjetoJava.javacore.Hherança.exerciciosHeranca;
 
-import pedro.projetojava.javacore.Hherança.dominioExercicio.alunoExercicio;
-import pedro.projetojava.javacore.Hherança.dominioExercicio.pessoaExercicio;
-import pedro.projetojava.javacore.Hherança.dominioExercicio.professorExercicio;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.alunoExercicio;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.pessoaExercicio;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.professorExercicio;
 
 public class hierarquiaExercicio {
     public static void main(String[] args) {

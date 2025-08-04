@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Aintroduçaoclasses.test;
+package pedro.ProjetoJava.javacore.Aintroduçaoclasses.test;
 
-import pedro.projetojava.javacore.Aintroduçaoclasses.dominio.Estudante;
+import pedro.ProjetoJava.javacore.Aintroduçaoclasses.dominio.Estudante;
 
 public class EstudanteTest02 {
     public static void main(String[] args) {

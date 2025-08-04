@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Dconstrutores.testAulas3;
+package pedro.ProjetoJava.javacore.Dconstrutores.testAulas3;
 
 
-import pedro.projetojava.javacore.Dconstrutores.dominiosAulas3.Anime;
+import pedro.ProjetoJava.javacore.Dconstrutores.dominiosAulas3.Anime;
 
 public class animeTest {
     public static void main(String[] args) {

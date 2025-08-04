@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.EXERCICIOS;
 
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Produto013;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios.Produto013;
 
 import java.util.Scanner;
 

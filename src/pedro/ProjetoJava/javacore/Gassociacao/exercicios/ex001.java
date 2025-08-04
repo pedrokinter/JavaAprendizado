@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Gassociacao.exercicios;
+package pedro.ProjetoJava.javacore.Gassociacao.exercicios;
 
-import pedro.projetojava.javacore.Gassociacao.dominiosExercicios.cursoExercicio01;
-import pedro.projetojava.javacore.Gassociacao.dominiosExercicios.professorExercicio01;
+import pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios.cursoExercicio01;
+import pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios.professorExercicio01;
 
 import java.util.Scanner;
 

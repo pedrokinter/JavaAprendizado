@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Lclassesabstratas.dominios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.dominios;
 
 public abstract class Funcionario extends Pessoa {
     protected String nome;

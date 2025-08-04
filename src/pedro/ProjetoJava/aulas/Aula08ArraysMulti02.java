@@ -1,4 +1,4 @@
-package pedro.projetojava.aulas;
+package pedro.ProjetoJava.aulas;
 
 public class Aula08ArraysMulti02 {
     public static void main(String[] args) {

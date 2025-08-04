@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.testesPessoais;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.testesPessoais;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominiosTestesPessoais.RetanguloRefeito;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosTestesPessoais.RetanguloRefeito;
 
 import java.util.Scanner;
 

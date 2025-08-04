@@ -1,7 +1,6 @@
-package pedro.projetojava.javacore.Gassociacao.dominiosExercicios;
+package pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class empresaExercicio03 {
     private String nome;

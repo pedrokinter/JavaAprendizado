@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Gassociacao.testeAula;
+package pedro.ProjetoJava.javacore.Gassociacao.testeAula;
 
 
-import pedro.projetojava.javacore.Gassociacao.dominio.Escola;
-import pedro.projetojava.javacore.Gassociacao.dominio.Professor;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.Escola;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.Professor;
 
 public class professorTest {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Isobrescrita.testes;
+package pedro.ProjetoJava.javacore.Isobrescrita.testes;
 
-import pedro.projetojava.javacore.Isobrescrita.dominios.animeSobrescrito;
+import pedro.ProjetoJava.javacore.Isobrescrita.dominios.animeSobrescrito;
 
 public class animeTesteToString {
     public static void main(String[] args) {

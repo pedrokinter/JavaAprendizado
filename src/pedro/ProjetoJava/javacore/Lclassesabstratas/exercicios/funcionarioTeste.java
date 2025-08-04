@@ -1,9 +1,8 @@
-package pedro.projetojava.javacore.Lclassesabstratas.exercicios;
+package pedro.ProjetoJava.javacore.Lclassesabstratas.exercicios;
 
-import pedro.projetojava.javacore.Lclassesabstratas.dominios.Funcionario;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.FuncionarioAbstrato;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.GerenteAbstrato;
-import pedro.projetojava.javacore.Lclassesabstratas.dominiosExercicios.VendedorAbstrato;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.FuncionarioAbstrato;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.GerenteAbstrato;
+import pedro.ProjetoJava.javacore.Lclassesabstratas.dominiosExercicios.VendedorAbstrato;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Jmodificadorfinal.exercicios;
+package pedro.ProjetoJava.javacore.Jmodificadorfinal.exercicios;
 
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.ProdutoExercicio;
-import pedro.projetojava.javacore.Jmodificadorfinal.dominio.ProdutoPerecivelExercicio;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.ProdutoExercicio;
+import pedro.ProjetoJava.javacore.Jmodificadorfinal.dominio.ProdutoPerecivelExercicio;
 
 public class produtosTeste {
     public static void main(String[] args) {

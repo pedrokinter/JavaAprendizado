@@ -1,9 +1,9 @@
-package pedro.projetojava.javacore.Gassociacao.testeAula;
+package pedro.ProjetoJava.javacore.Gassociacao.testeAula;
 
-import pedro.projetojava.javacore.Gassociacao.dominio.estudantesAula;
-import pedro.projetojava.javacore.Gassociacao.dominio.localAula;
-import pedro.projetojava.javacore.Gassociacao.dominio.professoresAula;
-import pedro.projetojava.javacore.Gassociacao.dominio.seminarioAula;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.estudantesAula;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.localAula;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.professoresAula;
+import pedro.ProjetoJava.javacore.Gassociacao.dominio.seminarioAula;
 
 import java.util.Scanner;
 

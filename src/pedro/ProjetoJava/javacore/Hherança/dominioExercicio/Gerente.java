@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Hherança.dominioExercicio;
+package pedro.ProjetoJava.javacore.Hherança.dominioExercicio;
 
 public class Gerente extends funcionarioSuper {
     private String setor;

@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Aintroduçaoclasses.dominio;
+package pedro.ProjetoJava.javacore.Aintroduçaoclasses.dominio;
 
 public class Filme {
     public String nome;

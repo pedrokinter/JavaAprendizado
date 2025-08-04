@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Gassociacao.exercicios;
+package pedro.ProjetoJava.javacore.Gassociacao.exercicios;
 
-import pedro.projetojava.javacore.Gassociacao.dominiosExercicios.departamentoExercicio03;
-import pedro.projetojava.javacore.Gassociacao.dominiosExercicios.empresaExercicio03;
-import pedro.projetojava.javacore.Gassociacao.dominiosExercicios.funcionarioExercicio03;
+import pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios.departamentoExercicio03;
+import pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios.empresaExercicio03;
+import pedro.ProjetoJava.javacore.Gassociacao.dominiosExercicios.funcionarioExercicio03;
 
 import java.util.ArrayList;
 import java.util.Scanner;

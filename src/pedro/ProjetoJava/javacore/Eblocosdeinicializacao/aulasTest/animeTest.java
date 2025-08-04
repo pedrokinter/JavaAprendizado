@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Eblocosdeinicializacao.aulasTest;
+package pedro.ProjetoJava.javacore.Eblocosdeinicializacao.aulasTest;
 
-import pedro.projetojava.javacore.Eblocosdeinicializacao.dominio.Anime;
+import pedro.ProjetoJava.javacore.Eblocosdeinicializacao.dominio.Anime;
 
 public class animeTest {
     public static void main(String[] args) {

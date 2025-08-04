@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Bintroduçaometodos.dominioExercicios.Lampada009;
+import pedro.ProjetoJava.javacore.Bintroduçaometodos.dominioExercicios.Lampada009;
 
 import java.util.Scanner;
 

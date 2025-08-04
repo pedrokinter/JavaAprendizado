@@ -1,8 +1,8 @@
-package pedro.projetojava.javacore.Hherança.testeAula;
+package pedro.ProjetoJava.javacore.Hherança.testeAula;
 
-import pedro.projetojava.javacore.Hherança.dominio.Endereco;
-import pedro.projetojava.javacore.Hherança.dominio.Funcionario;
-import pedro.projetojava.javacore.Hherança.dominio.Pessoa;
+import pedro.ProjetoJava.javacore.Hherança.dominio.Endereco;
+import pedro.ProjetoJava.javacore.Hherança.dominio.Funcionario;
+import pedro.ProjetoJava.javacore.Hherança.dominio.Pessoa;
 
 public class herancaTeste01 {
     public static void main(String[] args) {

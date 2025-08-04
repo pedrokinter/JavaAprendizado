@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominiosAulas;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosAulas;
 
 public class Pessoa {
     private String nome;

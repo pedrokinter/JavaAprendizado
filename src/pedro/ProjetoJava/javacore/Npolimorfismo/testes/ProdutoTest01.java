@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Npolimorfismo.testes;
+package pedro.ProjetoJava.javacore.Npolimorfismo.testes;
 
-import pedro.projetojava.javacore.Npolimorfismo.dominios.Computador;
-import pedro.projetojava.javacore.Npolimorfismo.servico.CalculadoraImposto;
+import pedro.ProjetoJava.javacore.Npolimorfismo.dominios.Computador;
+import pedro.ProjetoJava.javacore.Npolimorfismo.servico.CalculadoraImposto;
 
 public class ProdutoTest01 {
     public static void main(String[] args) {

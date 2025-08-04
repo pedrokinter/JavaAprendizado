@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Minterfaces.dominios;
+package pedro.ProjetoJava.javacore.Minterfaces.dominios;
 
 public class DataBaseLoader implements DataLoader, DataRemover {
 

@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Aintroduçaoclasses.test;
+package pedro.ProjetoJava.javacore.Aintroduçaoclasses.test;
 
-import pedro.projetojava.javacore.Aintroduçaoclasses.dominio.Estudante;
+import pedro.ProjetoJava.javacore.Aintroduçaoclasses.dominio.Estudante;
 public class EstudanteTest {
     // essa classe sempre vai ser usada pra testar o objeto pessoa que está na pasta dominio
     public static void main(String[] args) {

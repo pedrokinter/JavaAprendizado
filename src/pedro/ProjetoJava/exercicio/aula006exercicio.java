@@ -1,4 +1,4 @@
-package pedro.projetojava.exercicio;
+package pedro.ProjetoJava.exercicio;
 
 public class aula006exercicio {
     public static void main(String[] args) {

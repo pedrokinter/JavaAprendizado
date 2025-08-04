@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Bintroduçaometodos.dominiosTestesPessoais;
+package pedro.ProjetoJava.javacore.Bintroduçaometodos.dominiosTestesPessoais;
 
 public class Calculadora {
     public double a;

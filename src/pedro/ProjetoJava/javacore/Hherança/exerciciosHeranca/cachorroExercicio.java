@@ -1,7 +1,7 @@
-package pedro.projetojava.javacore.Hherança.exerciciosHeranca;
+package pedro.ProjetoJava.javacore.Hherança.exerciciosHeranca;
 
-import pedro.projetojava.javacore.Hherança.dominioExercicio.Animal;
-import pedro.projetojava.javacore.Hherança.dominioExercicio.Cachorro;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.Animal;
+import pedro.ProjetoJava.javacore.Hherança.dominioExercicio.Cachorro;
 
 public class cachorroExercicio {
     public static void main(String[] args) {

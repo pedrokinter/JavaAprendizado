@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Csobrecargamétodos.testAulas;
+package pedro.ProjetoJava.javacore.Csobrecargamétodos.testAulas;
 
-import pedro.projetojava.javacore.Csobrecargamétodos.dominioAulas2.Anime;
+import pedro.ProjetoJava.javacore.Csobrecargamétodos.dominioAulas2.Anime;
 
 public class animeTest {
     public static void main(String[] args) {

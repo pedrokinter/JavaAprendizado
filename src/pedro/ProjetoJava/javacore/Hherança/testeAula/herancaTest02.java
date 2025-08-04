@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Hherança.testeAula;
+package pedro.ProjetoJava.javacore.Hherança.testeAula;
 
 public class herancaTest02 {
     // 0 - Bloco de inicialização estático da super classe (classe pai) é executado quando a JVM carregar classe pai.

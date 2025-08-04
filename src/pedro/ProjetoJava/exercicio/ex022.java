@@ -1,4 +1,4 @@
-package pedro.projetojava.exercicio;
+package pedro.ProjetoJava.exercicio;
 
 import java.util.Random;
 import java.util.Scanner;

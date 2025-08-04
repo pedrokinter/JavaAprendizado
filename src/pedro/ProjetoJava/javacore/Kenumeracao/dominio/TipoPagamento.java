@@ -1,4 +1,4 @@
-package pedro.projetojava.javacore.Kenumeracao.dominio;
+package pedro.ProjetoJava.javacore.Kenumeracao.dominio;
 
 public enum TipoPagamento {
     DEBITO{

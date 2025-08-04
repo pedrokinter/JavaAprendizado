@@ -1,6 +1,6 @@
-package pedro.projetojava.javacore.Csobrecargamétodos.EXERCICIOS;
+package pedro.ProjetoJava.javacore.Csobrecargamétodos.EXERCICIOS;
 
-import pedro.projetojava.javacore.Csobrecargamétodos.dominioExercicios.produto001;
+import pedro.ProjetoJava.javacore.Csobrecargamétodos.dominioExercicios.produto001;
 
 import java.util.Scanner;
 
