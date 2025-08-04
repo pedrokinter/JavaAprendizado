@@ -29,7 +29,7 @@ public abstract class Pagamento {
         return valorAPagar;
     }
 
-    public void setvalorAPagar(double valorAPagar) {
+    public void setValorAPagar(double valorAPagar) {
         this.valorAPagar = valorAPagar;
     }
 }
